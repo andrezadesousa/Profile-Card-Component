@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+header {
+  background-color: #19a2ae;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  height: 675px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-top {
+  position: fixed;
+  margin-left: -45rem;
+  margin-top: -30rem;
+}
+
+.img-bottom {
+  position: fixed;
+}
+
+.profile-card {
+  position: relative;
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.banner-card img {
+  border-radius: 20px 20px 0px 0px;
+  width: 450px;
+}
+
+.card-text img {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 11rem;
+  margin-top: -4rem;
+  border: solid 3px white;
+  border-radius: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-text p {
+  color: #6a6f81;
+  font-size: 18px;
+  font-weight: 400;
+  margin-left: 12rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.card-bio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-bio span {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  font-weight: bold;
+  color: #2d3248;
+  font-size: 18px;
+}
+
+.card-bio a {
+  text-decoration: none;
+  margin-left: 5px;
+  color: #6a6f81;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.linha-horizontal {
+  border: 1px solid #c9c9c9;
+}
+
+.desc {
+  -webkit-columns: 3;
+          columns: 3;
+  margin-top: 1.5rem;
+  color: #2d3248;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.desc p {
+  color: #6a6f81;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #19a2ae;
+  color: white;
+  padding: 2.5rem;
+}
+
+.footer .attribution {
+  font-weight: 300;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.footer .attribution a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer .attribution a:hover {
+  color: #00fff7;
+}
+
+@media screen and (max-width: 780px) {
+  header {
+    height: 667px;
+  }
+  .linha-horizontal {
+    margin-top: -1rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
